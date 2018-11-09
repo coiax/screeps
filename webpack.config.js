@@ -17,7 +17,7 @@ module.exports = (env) => {
   const config = {
     devtool: 'source-map',
     entry: {
-      main: sourcePath + '/main.ts'
+      main: sourcePath + '/main.js'
     },
     module: {
       rules: [
